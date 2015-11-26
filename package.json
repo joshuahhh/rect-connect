@@ -1,0 +1,33 @@
+{
+  "name": "rect-connect",
+  "description": "Find connection points on the edges of rectangles for drawing arrows & stuff.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js",
+    "prepublish": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuahhh/rect-connect"
+  },
+  "keywords": [
+    "rectangles",
+    "arrows",
+    "connection",
+    "connect",
+    "shapes",
+    "math"
+  ],
+  "author": "Joshua Horowitz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshuahhh/rect-connect/issues"
+  },
+  "homepage": "https://github.com/joshuahhh/rect-connect",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
